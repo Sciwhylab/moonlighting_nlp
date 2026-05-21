@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moonlighting-nlp"
+version = "1.0.0"
+description = "Predicting moonlighting proteins from PubMed abstracts with NLP"
+requires-python = ">=3.9"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+packages = ["moonlighting"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
