@@ -112,6 +112,6 @@ These are deliberate, documented changes — none alter the modelling intent:
   checkpoints; confirm they match the exact versions used for Supp. Table 5.
 
 ## Data Availability
-
+The PMID's linked to each protein that was used in the paper is given in the uniprot-filtered-organism__Homo+sapiens+(Human)+[9606]_+AND+review file uploaded in the Zenodo link. The list of PMIDS linked to the DNA Binding proteins is listed in the files protein_pmids_unfiltered_negative and protein_pmids_unfiltered_positive
 The datasets used in this study are publicly available on Zenodo:
 DOI: 10.5281/zenodo.19104404
