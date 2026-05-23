@@ -4,7 +4,7 @@ Clean, reorganised code for the moonlighting-protein NLP study. The original
 analysis (2023) was developed across several Jupyter notebooks; this repository
 restructures it into a reproducible, modular pipeline that mirrors the
 manuscript's methodology (Supplementary Figure 1: dataset selection → data size
-→ language model → classifier → performance quantification).
+→ language model → classifier → performance quantification). (Citation of publication will be added when available)
 
 The biological task is binary text classification: given the PubMed abstracts
 associated with a protein, predict whether the protein is **moonlighting**
